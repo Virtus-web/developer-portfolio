@@ -1,14 +1,12 @@
 import './about.css'
-import Profile from '../../assets/profile.jpg'
+import Profile from '../../assets/profile3.jpg'
 import { FaAward } from 'react-icons/fa'
 import { FiUsers } from 'react-icons/fi'
-import { VscFolderLibrary } from 'react-icons/vsc'
 
 
 function About() {
     return (
         <section id="about">
-            <h2>Get to know</h2>
             <div className="container about__container">
                 <div className="about__me">
                     <div className="about__me-image">
@@ -19,26 +17,25 @@ function About() {
                     <div className="about__cards">
                         <article className="about__card">
                             <FaAward className="about__icon" />
-                            <h5>Experience</h5>
-                            <small>1+ year Working</small>
+                            <h5>Formation</h5>
+                            <div className="formation__box">
+                                <small>Développement Web - BAC+4</small>
+                                <small>Finance - Master</small>
+                            </div>
                         </article>
 
                         <article className="about__card">
                             <FiUsers className="about__icon" />
-                            <h5>Clients</h5>
-                            <small>200+ Worldwide</small>
-                        </article>
-
-                        <article className="about__card">
-                            <VscFolderLibrary className="about__icon" />
-                            <h5>Projects</h5>
-                            <small>5+ Completed</small>
+                            <h5>Experience</h5>
+                            <div className="formation__box">
+                                <small>Développement Web - 2 ans</small>
+                                <small>Marlketing et Communication - 8 ans</small>
+                            </div>
                         </article>
                     </div>
 
-                    <p>Lorem ipsum dolor sit amet. Et rerum cupiditate quo laborum doloremque qui adipisci mollitia ut facere optio non dolor tenetur sed soluta aspernatur ex sapiente enim. Et molestiae corrupti est debitis vero aut corrupti voluptatem quo internos libero.</p>
+                    <p>Après une évolution positive dans le domaine des médias et de la communication, j'ai amorcé un changement de carrière orienté vers le développement informatique afin d'être plus cohérent avec mes objectifs professionnels et personnels. Durant ces trois dernières années, j'ai ainsi perfectionné mon travail afin d'acquérir les compétences techniques nécessaires à un cadre professionnel.</p>
 
-                    <a className="btn btn-primary" href="#contact" >Let's Talk</a>
                 </div>
             </div>
         </section>

@@ -1,15 +1,22 @@
-.container.contact__container {
-    width: 60%;
-    display: grid;
-    grid-template-columns: 30% 60%;
-    gap: 12%;
+#contact {
+    margin-top: 3em;
+}
+#contact h2 {
+    font-size: 2em;
 }
 
-.contact__options {
-    display: flex;
-    flex-direction: column;
+.container.contact__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 1em;
 }
+/* Je dois virer la div dans jsx pour pouvoir utiliser grid ci-dessus */
+/* .contact__options {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+} */
 
 .contact__option {
     background: var(--color-bg-variant);
@@ -28,10 +35,11 @@
 .contact__option-icon {
     font-size: 1.5em;
     margin-bottom: 1em;
+    color: var(--color-bg);
 }
 
 .contact__option a {
-    font-size: 1em;
+    font-size: 1.3em;
     margin-top: 1em;
     display: inline-block;
 }
@@ -41,7 +49,7 @@
 form {
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 4.9em;
 }
 
 input,

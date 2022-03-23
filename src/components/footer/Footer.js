@@ -12,9 +12,8 @@ function Footer() {
                 <li><a href="/#">Home</a></li>
                 <li><a href="/#about">About</a></li>
                 <li><a href="/#experience">Experience</a></li>
-                <li><a href="/#services">Services</a></li>
                 <li><a href="/#portfolio">Portfolio</a></li>
-                <li><a href="/#testimonials">Testimonials</a></li>
+                <li><a href="/#services">Services</a></li>
                 <li><a href="/#contact">Contact</a></li>
             </ul>
             <div className="footer__socials">
@@ -22,9 +21,9 @@ function Footer() {
                 <a href="https://instagram.com" rel="noreferrer" target="_blank"><FiInstagram /></a>
                 <a href="https://twitter.com" rel="noreferrer" target="_blank"><IoLogoTwitter /></a>
             </div>
-            <div className="footer__copyright">
+            {/* <div className="footer__copyright">
                 <small>&copy; Virtus-web. All rights reserved.</small>
-            </div>
+            </div> */}
         </footer>
     )
 }

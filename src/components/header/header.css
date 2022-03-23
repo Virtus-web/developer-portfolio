@@ -21,6 +21,13 @@ header {
     text-align: center;
     position: absolute;
 } */
+.header__container h2 {
+    font-size: 2em;
+}
+.header__container h3 {
+    font-size: 1.5em;
+    color: var(--color-bg);
+}
 
 /* =================== CTA =================== */
 
@@ -39,17 +46,34 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    left: calc(50% - 4em);
-    bottom: 1em;
+    /* position: absolute; */
+    margin-top: 1em;
+    /* left: calc(50% - 13em);
+    top: 4em; */
 }
 
-.header__socials::after {
+/* .header__socials a {
+    font-size: 1em;
+} */
+
+.socials__icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 4em;
+}
+.socials__icon a {
+    font-size: 1.5em;
+    height: 1.3em;
+}
+
+/* .header__socials::after {
     content: "";
     width: 1px;
-    height: 1em;
+    height: 1.5em;
     background: var(--color-primary);
-}
+} */
 
 /* =================== HEADER SOCIALS =================== */
 
@@ -86,16 +110,22 @@ header {
     font-weight: 300;
     font-size: 1em;
 } */
-.scroll__down {
-    position: absolute;
+.scroll__down--1,
+.scroll__down--2 {
+    display: flex;
+    align-items: center;
+    height: 1.5em;
+    padding: .1rem .1rem;
+    border-radius: .1rem;
+    font-size: 1em;
+    /* position: absolute; */
+}
+/* .scroll__down--1 {
     left: 3.5em;
 }
-.scroll__down::before {
-    content: "";
-    width: 1px;
-    height: 1em;
-    background: var(--color-primary);
-}
+.scroll__down--2 {
+    left: 9em;
+} */
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) =================== */
 
@@ -119,4 +149,13 @@ header {
     .scroll__down {
         display: none;
     } */
+    .header__socials {
+        flex-direction: column;
+    }
+    .socials__icon {
+        width: 3em;
+    }
+    .header__socials a {
+        font-size: 1em;
+    }
 }

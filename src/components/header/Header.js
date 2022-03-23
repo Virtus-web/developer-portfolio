@@ -1,23 +1,16 @@
 import './header.css'
-import CTA from './CTA'
 import HeaderSocials from './HeaderSocials'
-import Profile from '../../assets/profile.jpg'
+import About from '../about/About'
 
 
 function Header() {
     return (
         <header>
             <div className="container header__container">
-                <h5>Bonjour</h5>
-                <h1>Nicolas Pedenau</h1>
-                <h5 className="text-light">Fullstack Developer</h5>
-                <CTA />
+                <h2>Nicolas Pedenau</h2>
+                <h3 className="text-light">Fullstack Developer</h3>
                 <HeaderSocials />
-                
-                <div className="me">
-                    <img src={Profile} alt="profile" />
-                </div>
-
+                <About />
             </div>
         </header>
     )

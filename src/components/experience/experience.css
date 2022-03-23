@@ -1,4 +1,12 @@
+#experience {
+    margin-top: 3em;
+}
+#experience h2 {
+    font-size: 2em;
+}
+
 .experience__container {
+    margin-top: 2em;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: .5em;
@@ -22,22 +30,27 @@
     text-align: center;
     margin-bottom: .5em;
     color: var(--color-primary);
+    font-size: 1.5em;
 }
 
 .experience__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    row-gap: .5em;
+    row-gap: 1em;
+    padding: 1em;
 }
 
 .experience__details {
     display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
     gap: .5em;
+    font-size: 1.3em;
 }
 
 .experience__details-icon {
-    margin-top: 2em;
-    color: var(--color-primary);
+    margin-top: 1em;
+    color: var(--color-bg);
 }
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES =================== */

@@ -1,13 +1,13 @@
 footer {
     background: var(--color-primary);
-    padding: 1em 0;
+    padding: 1em 0 5em 0;
     text-align: center;
     font-size: 1em;
     margin-top: 2em;
 }
 
 footer a {
-    color: var(--color-bg);
+    color: var(--color-light);
 }
 
 .footer__logo {
@@ -52,6 +52,14 @@ footer a {
     color: var(--color-bg);
 }
 
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) =================== */
+
+@media screen and (max-width: 1024px) {
+    .footer__socials {
+        margin-top: 2em;
+    }
+}
+
 /* ================ MEDIA QUERIES (SMALL DEVICES) =================== */
 
 @media screen and (max-width: 600px) {
@@ -60,6 +68,7 @@ footer a {
         gap: 1em;
     }
     .footer__socials {
+        margin-top: 2em;
         margin-bottom: 1.5em;
     }
 }
