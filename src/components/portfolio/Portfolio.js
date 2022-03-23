@@ -76,7 +76,7 @@ function Portfolio() {
                                 </div>
                                 <h3>{title}</h3>
                                 <div className="portfolio__item-cta">
-                                    <a href={github} className="btn" rel="noreferrer" target="_blank">GitHub</a>
+                                    {/* <a href={github} className="btn" rel="noreferrer" target="_blank">GitHub</a> */}
                                     <a href={site} className="btn btn-primary" rel="noreferrer" target="_blank">Lien du site</a>                        
                                 </div>
                             </SwiperSlide>
