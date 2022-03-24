@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/developer-portfolio/static/css/main.b97fdfc0.css",
+    "main.js": "/developer-portfolio/static/js/main.1c8314dc.js",
+    "static/media/cv_nicolas-pedenau.pdf": "/developer-portfolio/static/media/cv_nicolas-pedenau.dea8784cd9cbd9ddb296.pdf",
+    "static/media/background.jpg": "/developer-portfolio/static/media/background.b44595556d1e4c6e1678.jpg",
+    "static/media/profile3.jpg": "/developer-portfolio/static/media/profile3.121683c53f8fda014120.jpg",
+    "static/media/mariage.jpg": "/developer-portfolio/static/media/mariage.2a6f07b0451f62a084fe.jpg",
+    "static/media/shiny.jpg": "/developer-portfolio/static/media/shiny.ac0c4f95fb47abcf0579.jpg",
+    "static/media/shop.jpg": "/developer-portfolio/static/media/shop.b303bd41adc9f963df8d.jpg",
+    "static/media/sport.jpg": "/developer-portfolio/static/media/sport.fe28757fc9010c6042cc.jpg",
+    "static/media/kasa.jpg": "/developer-portfolio/static/media/kasa.c24ed6418cfbd30af15b.jpg",
+    "index.html": "/developer-portfolio/index.html",
+    "main.b97fdfc0.css.map": "/developer-portfolio/static/css/main.b97fdfc0.css.map",
+    "main.1c8314dc.js.map": "/developer-portfolio/static/js/main.1c8314dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b97fdfc0.css",
+    "static/js/main.1c8314dc.js"
+  ]
+}
