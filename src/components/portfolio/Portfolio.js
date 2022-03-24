@@ -21,36 +21,36 @@ const data = [
         id: 1,
         image: Projet1,
         title: "Site de mariage",
-        github: "https://github.com/Virtus-web/mariage-carineetpierre",
+        github: "",
         site: "https://marriagecarineetpierre.netlify.app"
     },
     {
         id: 2,
         image: Projet2,
         title: "Site de suivi sportif",
-        github: "https://github.com/Virtus-web/mariage-carineetpierre",
-        site: "https://marriagecarineetpierre.netlify.app"
+        github: "",
+        site: "https://Virtus-web.github.io/suivi-sportif"
     },
     {
         id: 3,
         image: Projet3,
         title: "Site de location de vacances",
-        github: "https://github.com/Virtus-web/mariage-carineetpierre",
-        site: "https://marriagecarineetpierre.netlify.app"
+        github: "",
+        site: "https://virtus-web.github.io/location-vacances"
     },
     {
         id: 4,
         image: Projet4,
         title: "Site de recrutement",
-        github: "https://github.com/Virtus-web/mariage-carineetpierre",
-        site: "https://marriagecarineetpierre.netlify.app"
+        github: "",
+        site: "https://virtus-web.github.io/agence-recrutement"
     },
     {
         id: 5,
         image: Projet5,
         title: "Site de e-commerce",
-        github: "https://github.com/Virtus-web/mariage-carineetpierre",
-        site: "https://marriagecarineetpierre.netlify.app"
+        github: "",
+        site: "https://virtus-web.github.io/e-shopping"
     }
 ]
 
