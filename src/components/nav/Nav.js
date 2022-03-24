@@ -12,11 +12,11 @@ function Nav() {
 
     return (
         <nav>
-            <a href="/#" className={activeNav === '#' ? 'active' : '' } onClick={() => setActiveNav('#')}><AiOutlineHome /></a> 
+            <a href="/developer-portfolio/#" className={activeNav === '/developer-portfolio/#' ? 'active' : '' } onClick={() => setActiveNav('/developer-portfolio/#')}><AiOutlineHome /></a> 
             {/* <a href="/#about" className={activeNav === '#about' ? 'active' : '' } onClick={() => setActiveNav('#about')}><AiOutlineUser /></a>  */}
-            <a href="/#portfolio" className={activeNav === '#portfolio' ? 'active' : '' } onClick={() => setActiveNav('#portfolio')}><BiBook /></a> 
-            <a href="/#services" className={activeNav === '#services' ? 'active' : '' } onClick={() => setActiveNav('#services')}><RiServiceFill /></a> 
-            <a href="/#contact" className={activeNav === '#contact' ? 'active' : '' } onClick={() => setActiveNav('#contact')}><BiMessageSquareDetail /></a> 
+            <a href="/developer-portfolio/#portfolio" className={activeNav === '/developer-portfolio/#portfolio' ? 'active' : '' } onClick={() => setActiveNav('/developer-portfolio/#portfolio')}><BiBook /></a> 
+            <a href="/developer-portfolio/#services" className={activeNav === '/developer-portfolio/#services' ? 'active' : '' } onClick={() => setActiveNav('/developer-portfolio/#services')}><RiServiceFill /></a> 
+            <a href="/developer-portfolio/#contact" className={activeNav === '/developer-portfolio/#contact' ? 'active' : '' } onClick={() => setActiveNav('/developer-portfolio/#contact')}><BiMessageSquareDetail /></a> 
         </nav>
     )
 }
