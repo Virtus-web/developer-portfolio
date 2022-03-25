@@ -52,8 +52,8 @@
 
 .modal__box {
     width: 50vw;
-    height: auto;
-    /* max-height: 100vh; */
+    /* height: auto; */
+    max-height: 100vh;
     position: relative;
     background-color: var(--color-light);
     border-radius: 1em;
@@ -61,8 +61,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 3em .5em .5em .5em;
-    overflow: scroll;
+    padding: 4em .5em .5em .5em;
+    /* overflow:scroll; */
 }
 
 .modal__box-title {
@@ -79,13 +79,12 @@
 .infos__list-icon {
     color: var(--color-bg);
     font-size: 2em;
-    margin-top: 1em;
 }
 
 .infos__list li {
     display: grid;
-    margin-bottom: 1em;
-    gap: 1em;
+    margin-bottom: .5em;
+    gap: .5em;
 }
 
 .infos__list p {
@@ -119,12 +118,12 @@
         width: 70vw;
     }
     .modal__box-title {
-        font-size: 1.3em;
+        font-size: 1em;
     }
     .infos__list-icon {
-        font-size: 1.5em;
+        font-size: 1em;
     }
     .infos__list p {
-        font-size: .9em;
+        font-size: .7em;
     }
 }

@@ -14,7 +14,7 @@
     background: linear-gradient(
         45deg,
         transparent,
-        var(--color-bg),
+        var(--color-white),
         transparent
     );
     display: grid;
@@ -61,7 +61,7 @@
 }
 
 .about__icon {
-    color: var(--color-primary);
+    color: var(--color-bg);
     font-size: 2em;
     margin-bottom: .3em;
 }
