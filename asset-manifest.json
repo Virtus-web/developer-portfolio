@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/developer-portfolio/static/css/main.9449f436.css",
-    "main.js": "/developer-portfolio/static/js/main.ccc5a4f3.js",
+    "main.css": "/developer-portfolio/static/css/main.5d61f7ad.css",
+    "main.js": "/developer-portfolio/static/js/main.ccb94aaa.js",
     "static/media/background2.jpg": "/developer-portfolio/static/media/background2.0282aa7ccc6f3397d6cc.jpg",
     "static/media/cv_nicolas-pedenau.pdf": "/developer-portfolio/static/media/cv_nicolas-pedenau.dea8784cd9cbd9ddb296.pdf",
     "static/media/background.jpg": "/developer-portfolio/static/media/background.b44595556d1e4c6e1678.jpg",
@@ -19,11 +19,11 @@
     "static/media/avatar1.jpg": "/developer-portfolio/static/media/avatar1.81462c9abfb97cae9341.jpg",
     "index.html": "/developer-portfolio/index.html",
     "static/media/cross.svg": "/developer-portfolio/static/media/cross.1174422b9920ae2bbbab.svg",
-    "main.9449f436.css.map": "/developer-portfolio/static/css/main.9449f436.css.map",
-    "main.ccc5a4f3.js.map": "/developer-portfolio/static/js/main.ccc5a4f3.js.map"
+    "main.5d61f7ad.css.map": "/developer-portfolio/static/css/main.5d61f7ad.css.map",
+    "main.ccb94aaa.js.map": "/developer-portfolio/static/js/main.ccb94aaa.js.map"
   },
   "entrypoints": [
-    "static/css/main.9449f436.css",
-    "static/js/main.ccc5a4f3.js"
+    "static/css/main.5d61f7ad.css",
+    "static/js/main.ccb94aaa.js"
   ]
 }
