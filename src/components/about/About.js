@@ -29,7 +29,7 @@ function About() {
                             <h5>Experience</h5>
                             <div className="formation__box">
                                 <small>Développement Web - 1+ an</small>
-                                <small>Marlketing et Communication - 8+ ans</small>
+                                <small>Marketing et Communication - 8+ ans</small>
                             </div>
                         </article>
                     </div>
