@@ -8,7 +8,7 @@ import { BsWhatsapp } from 'react-icons/bs'
 function Contact() {
     return (
         <section id="contact">
-            <h2>Pour me contacter</h2>
+            <h2>En savoir plus</h2>
             <div className="container contact__container">
                 <article className="contact__option">
                     <MdOutlineEmail className="contact__option-icon" />
