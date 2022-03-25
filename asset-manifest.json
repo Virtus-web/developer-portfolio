@@ -1,21 +1,29 @@
 {
   "files": {
-    "main.css": "/developer-portfolio/static/css/main.b97fdfc0.css",
-    "main.js": "/developer-portfolio/static/js/main.5e2312e8.js",
+    "main.css": "/developer-portfolio/static/css/main.ea5e1a2a.css",
+    "main.js": "/developer-portfolio/static/js/main.88f8b7e6.js",
+    "static/media/background2.jpg": "/developer-portfolio/static/media/background2.0282aa7ccc6f3397d6cc.jpg",
     "static/media/cv_nicolas-pedenau.pdf": "/developer-portfolio/static/media/cv_nicolas-pedenau.dea8784cd9cbd9ddb296.pdf",
     "static/media/background.jpg": "/developer-portfolio/static/media/background.b44595556d1e4c6e1678.jpg",
+    "static/media/background3.jpg": "/developer-portfolio/static/media/background3.2f0d2edefa12e9b6d0c2.jpg",
+    "static/media/profile.jpg": "/developer-portfolio/static/media/profile.77698acdb4510e808a03.jpg",
     "static/media/profile3.jpg": "/developer-portfolio/static/media/profile3.121683c53f8fda014120.jpg",
     "static/media/mariage.jpg": "/developer-portfolio/static/media/mariage.2a6f07b0451f62a084fe.jpg",
     "static/media/shiny.jpg": "/developer-portfolio/static/media/shiny.ac0c4f95fb47abcf0579.jpg",
     "static/media/shop.jpg": "/developer-portfolio/static/media/shop.b303bd41adc9f963df8d.jpg",
+    "static/media/profile2.jpg": "/developer-portfolio/static/media/profile2.01e4da028c09b0c29a32.jpg",
     "static/media/sport.jpg": "/developer-portfolio/static/media/sport.fe28757fc9010c6042cc.jpg",
+    "static/media/avatar3.jpg": "/developer-portfolio/static/media/avatar3.e1dfabf2f8551c8451c0.jpg",
+    "static/media/avatar2.jpg": "/developer-portfolio/static/media/avatar2.c312d6677bb010ebb603.jpg",
     "static/media/kasa.jpg": "/developer-portfolio/static/media/kasa.c24ed6418cfbd30af15b.jpg",
+    "static/media/avatar1.jpg": "/developer-portfolio/static/media/avatar1.81462c9abfb97cae9341.jpg",
     "index.html": "/developer-portfolio/index.html",
-    "main.b97fdfc0.css.map": "/developer-portfolio/static/css/main.b97fdfc0.css.map",
-    "main.5e2312e8.js.map": "/developer-portfolio/static/js/main.5e2312e8.js.map"
+    "static/media/cross.svg": "/developer-portfolio/static/media/cross.1174422b9920ae2bbbab.svg",
+    "main.ea5e1a2a.css.map": "/developer-portfolio/static/css/main.ea5e1a2a.css.map",
+    "main.88f8b7e6.js.map": "/developer-portfolio/static/js/main.88f8b7e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.b97fdfc0.css",
-    "static/js/main.5e2312e8.js"
+    "static/css/main.ea5e1a2a.css",
+    "static/js/main.88f8b7e6.js"
   ]
 }
