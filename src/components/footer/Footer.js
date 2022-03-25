@@ -11,7 +11,7 @@ function Footer() {
             <ul className="permalinks">
                 <li><a href="/developer-portfolio/#">Home</a></li>
                 <li><a href="/developer-portfolio/#about">About</a></li>
-                <li><a href="/developer-portfolio/#experience">Experience</a></li>
+                <li><a href="/developer-portfolio/#experience">Compétences</a></li>
                 <li><a href="/developer-portfolio/#portfolio">Portfolio</a></li>
                 <li><a href="/developer-portfolio/#services">Services</a></li>
                 <li><a href="/developer-portfolio/#contact">Contact</a></li>
