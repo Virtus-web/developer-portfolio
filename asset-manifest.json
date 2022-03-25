@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/developer-portfolio/static/css/main.ea5e1a2a.css",
+    "main.css": "/developer-portfolio/static/css/main.9449f436.css",
     "main.js": "/developer-portfolio/static/js/main.88f8b7e6.js",
     "static/media/background2.jpg": "/developer-portfolio/static/media/background2.0282aa7ccc6f3397d6cc.jpg",
     "static/media/cv_nicolas-pedenau.pdf": "/developer-portfolio/static/media/cv_nicolas-pedenau.dea8784cd9cbd9ddb296.pdf",
@@ -19,11 +19,11 @@
     "static/media/avatar1.jpg": "/developer-portfolio/static/media/avatar1.81462c9abfb97cae9341.jpg",
     "index.html": "/developer-portfolio/index.html",
     "static/media/cross.svg": "/developer-portfolio/static/media/cross.1174422b9920ae2bbbab.svg",
-    "main.ea5e1a2a.css.map": "/developer-portfolio/static/css/main.ea5e1a2a.css.map",
+    "main.9449f436.css.map": "/developer-portfolio/static/css/main.9449f436.css.map",
     "main.88f8b7e6.js.map": "/developer-portfolio/static/js/main.88f8b7e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea5e1a2a.css",
+    "static/css/main.9449f436.css",
     "static/js/main.88f8b7e6.js"
   ]
 }
