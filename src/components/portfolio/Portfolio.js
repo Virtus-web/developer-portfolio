@@ -1,9 +1,8 @@
 import './portfolio.css'
-import Projet1 from '../../assets/mariage.jpg'
-import Projet2 from '../../assets/sport.jpg'
-import Projet3 from '../../assets/kasa.jpg'
-import Projet4 from '../../assets/shiny.jpg'
-import Projet5 from '../../assets/shop.jpg'
+import Modal from '../modal/Modal'
+import { useContext, useState } from 'react'
+import { ThemeContext } from '../../utils/index'
+import { websiteData } from '../../data/website'
 
 // Import Swiper core and required modules
 import { Pagination } from 'swiper'
@@ -13,49 +12,14 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/pagination'
 
-
-//Noter le fait qu'il ne faut pas utiliser les images comme ça en production (public vs assets) avec l'url pour fetch dans le cahier
-//importer les data depuis un dossier à part
-const data = [
-    {
-        id: 1,
-        image: Projet1,
-        title: "Site de mariage",
-        github: "",
-        site: "https://marriagecarineetpierre.netlify.app"
-    },
-    {
-        id: 2,
-        image: Projet2,
-        title: "Site de suivi sportif",
-        github: "",
-        site: "https://Virtus-web.github.io/suivi-sportif"
-    },
-    {
-        id: 3,
-        image: Projet3,
-        title: "Site de location de vacances",
-        github: "",
-        site: "https://virtus-web.github.io/location-vacances"
-    },
-    {
-        id: 4,
-        image: Projet4,
-        title: "Site de recrutement",
-        github: "",
-        site: "https://virtus-web.github.io/agence-recrutement"
-    },
-    {
-        id: 5,
-        image: Projet5,
-        title: "Site de e-commerce",
-        github: "",
-        site: "https://virtus-web.github.io/e-shopping"
-    }
-]
+// const { id, image, title, description, site } = websiteData
 
 
 function Portfolio() {
+
+    const { activeModal } = useContext(ThemeContext)
+    const [ devInfos, setDevInfos ] = useState()
+
     return (
         <section id="portfolio">
             <h2>Portfolio</h2>
@@ -68,15 +32,21 @@ function Portfolio() {
             pagination={{ clickable: true }}
             >
                 {
-                    data.map(({id, image, title, github, site}) => {
+                    websiteData.map(({id, image, title, description, site}) => {
                         return (
                             <SwiperSlide key={id} className="portfolio__item">
                                 <div className="portfolio__item-image">
-                                    <img src={image} alt={title} />
+                                    <img src={require(`../../assets/${image}`)} alt={title} />
                                 </div>
                                 <h3>{title}</h3>
                                 <div className="portfolio__item-cta">
-                                    {/* <a href={github} className="btn" rel="noreferrer" target="_blank">GitHub</a> */}
+                                    <button className="btn" onClick={() => {
+                                        activeModal()
+                                        setDevInfos(
+                                            websiteData.filter(element => element.id === id)
+                                        )
+                                    }}
+                                    >{description}</button>
                                     <a href={site} className="btn btn-primary" rel="noreferrer" target="_blank">Lien du site</a>                        
                                 </div>
                             </SwiperSlide>
@@ -85,6 +55,7 @@ function Portfolio() {
                 }
 
             </Swiper>
+            <Modal {...devInfos} />
         </section>
     )
 }

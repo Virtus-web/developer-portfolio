@@ -97,8 +97,11 @@ section > h2 {
     color: var(--color-light);
 }
 
-a {
+a,
+button {
+    background-color: transparent;
     color: var(--color-primary);
+    font-size: 1em;
     transition: var(--transition);
 }
 

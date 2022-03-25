@@ -1,8 +1,8 @@
 #portfolio {
     margin-top: 3em;
 }
-#portfolio h2 {
-    font-size: 2em;
+#portfolio > h2 {
+    font-size: 3em;
 }
 
 /* .container.contact__container {
@@ -48,7 +48,6 @@
 .portfolio__item h3 {
     margin: .5em 0 1em;
 }
-
 
 .portfolio__item-cta {
     display: flex;

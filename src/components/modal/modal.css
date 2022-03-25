@@ -1,0 +1,126 @@
+@keyframes openModal {
+    from {opacity: 0;}
+    to {opacity : 1;}
+}
+
+.modal {
+    padding: 0 5em 0 5em;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;    
+    width: 100vw;
+    height: 100vh;
+    /* background-color: var(--color-bg-variant); */
+    background-color: rgba(0,0,0,.2)!important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    animation: openModal .7s;
+}
+
+.active.modal {
+    display: flex;
+}
+
+.modal__box-close {
+    color: black;
+    background: url('data:image/svg+xml;utf8,<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.5 2.64275L13.3573 0.5L8 5.85725L2.64275 0.5L0.5 2.64275L5.85725 8L0.5 13.3573L2.64275 15.5L8 10.1427L13.3573 15.5L15.5 13.3573L10.1427 8L15.5 2.64275Z" fill="white"/></svg>') center center / 50% 50% no-repeat var(--color-bg);
+    /* color: var(--color-primary); */
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    border: none;
+    position: absolute;
+    z-index: 101;
+    top: 1em;
+    right: 1em;
+    opacity: .5;
+    cursor: pointer;
+    text-indent: -1000em;
+    transition: opacity .3s;       
+}
+
+.modal__box-close:hover {
+    opacity: 1;
+}
+
+
+.modal__box {
+    width: 50vw;
+    /* height: auto; */
+    max-height: 100vh;
+    position: relative;
+    background-color: var(--color-light);
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3em .5em .5em .5em;
+}
+
+.modal__box-title {
+    text-align: center;
+    font-size: 3em;
+    color: var(--color-primary);
+}
+
+
+.infos__list {
+    padding: 1em;
+}
+
+.infos__list-icon {
+    color: var(--color-bg);
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+.infos__list li {
+    display: grid;
+    margin-bottom: 1em;
+    gap: 1em;
+}
+
+.infos__list p {
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+
+/* ================ MEDIA QUERIES (MEDIUM DEVICES =================== */
+
+@media screen and (max-width: 1024px) {
+    .modal__box-title {
+        font-size: 2em;
+    }
+    .modal__box-close {
+        width: 2em;
+        height: 2em;
+    }
+    .infos__list-icon {
+        font-size: 1.5em;
+    }
+    .infos__list p {
+        font-size: 1.5em;
+    }
+}
+
+/* ================ MEDIA QUERIES (SMALL DEVICES =================== */
+
+@media screen and (max-width: 780px) {
+    .modal__box-title {
+        font-size: 1.5em;
+    }
+    .infos__list-icon {
+        font-size: 1.5em;
+    }
+    .infos__list p {
+        font-size: .9em;
+    }
+}
