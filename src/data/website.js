@@ -5,7 +5,7 @@ export const websiteData = [
         title: "Site de mariage",
         description: "Description",
         site: "https://marriagecarineetpierre.netlify.app",
-        info1: "Ce site est uen application React en ligne et toujours en cours de constrction",
+        info1: "Ce site est une application React en ligne et toujours en cours de constrction",
         info2: "Il a été développé en parallèle d'une API construite avec Express et Mongo DB, et intègre un formulaire de validation. La prochaine étape sera d'y intégrer un forum de messagerie instantanée",
         info3: "Déploiement du site via Heroku pour la partie backend et Netlify pour la partie frontend. Le code du site est entièrement hébergé sur GitHub"
     },

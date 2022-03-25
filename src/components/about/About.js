@@ -34,7 +34,7 @@ function About() {
                         </article>
                     </div>
 
-                    <p>Après une évolution positive dans le domaine des médias et de la communication, j'ai amorcé un changement de carrière orienté vers le développement informatique afin d'être plus cohérent avec mes objectifs professionnels et personnels. Durant ces trois dernières années, j'ai ainsi perfectionné mon travail afin d'acquérir les compétences techniques nécessaires à un cadre professionnel.</p>
+                    <p>Après une évolution positive dans le domaine des médias et de la communication, j'ai amorcé un changement de carrière orienté vers le développement informatique afin d'être plus cohérent avec mes objectifs professionnels et personnels. Durant ces deux dernières années, j'ai ainsi perfectionné mon travail afin d'acquérir les compétences techniques nécessaires à un cadre professionnel.</p>
 
                 </div>
             </div>
