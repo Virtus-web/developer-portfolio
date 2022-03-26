@@ -1,6 +1,6 @@
 import { BsLinkedin } from 'react-icons/bs'
 import { FaGithub } from 'react-icons/fa'
-import CV from '../../assets/cv_nicolas-pedenau.pdf'
+import CV from '../../assets/cv_nicolasPedenau.pdf'
 
 
 function HeaderSocials() {
