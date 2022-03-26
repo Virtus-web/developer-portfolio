@@ -39,9 +39,10 @@
 }
 
 .contact__option a {
-    font-size: 1.3em;
+    font-size: 1em;
     margin-top: 1em;
     display: inline-block;
+    color: var(--color-primary-variant);
 }
 
 /* ================ FORM =================== */

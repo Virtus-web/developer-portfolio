@@ -63,7 +63,7 @@
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
-    background: var(--color-bg);
+    background: var(--color-primary-variant);
     margin: 0;
 }
 
