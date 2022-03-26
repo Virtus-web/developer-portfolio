@@ -1,12 +1,10 @@
 {
   "files": {
-    "main.css": "/developer-portfolio/static/css/main.e143cff9.css",
-    "main.js": "/developer-portfolio/static/js/main.b28d2263.js",
-    "static/media/background2.jpg": "/developer-portfolio/static/media/background2.0282aa7ccc6f3397d6cc.jpg",
+    "main.css": "/developer-portfolio/static/css/main.dc357824.css",
+    "main.js": "/developer-portfolio/static/js/main.c5198b09.js",
     "static/media/cv_nicolasPedenau.pdf": "/developer-portfolio/static/media/cv_nicolasPedenau.e6ceee9119ebb632974c.pdf",
-    "static/media/background.jpg": "/developer-portfolio/static/media/background.b44595556d1e4c6e1678.jpg",
-    "static/media/background3.jpg": "/developer-portfolio/static/media/background3.2f0d2edefa12e9b6d0c2.jpg",
     "static/media/profile.jpg": "/developer-portfolio/static/media/profile.77698acdb4510e808a03.jpg",
+    "static/media/background.jpg": "/developer-portfolio/static/media/background.31ea5760ce08b9c615cc.jpg",
     "static/media/profile3.jpg": "/developer-portfolio/static/media/profile3.121683c53f8fda014120.jpg",
     "static/media/mariage.jpg": "/developer-portfolio/static/media/mariage.2a6f07b0451f62a084fe.jpg",
     "static/media/shiny.jpg": "/developer-portfolio/static/media/shiny.ac0c4f95fb47abcf0579.jpg",
@@ -19,11 +17,11 @@
     "static/media/avatar1.jpg": "/developer-portfolio/static/media/avatar1.81462c9abfb97cae9341.jpg",
     "index.html": "/developer-portfolio/index.html",
     "static/media/cross.svg": "/developer-portfolio/static/media/cross.1174422b9920ae2bbbab.svg",
-    "main.e143cff9.css.map": "/developer-portfolio/static/css/main.e143cff9.css.map",
-    "main.b28d2263.js.map": "/developer-portfolio/static/js/main.b28d2263.js.map"
+    "main.dc357824.css.map": "/developer-portfolio/static/css/main.dc357824.css.map",
+    "main.c5198b09.js.map": "/developer-portfolio/static/js/main.c5198b09.js.map"
   },
   "entrypoints": [
-    "static/css/main.e143cff9.css",
-    "static/js/main.b28d2263.js"
+    "static/css/main.dc357824.css",
+    "static/js/main.c5198b09.js"
   ]
 }
