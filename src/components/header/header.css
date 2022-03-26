@@ -23,6 +23,7 @@ header {
 } */
 .header__container h2 {
     font-size: 2em;
+    color: var(--color-primary);
 }
 .header__container h3 {
     font-size: 1.5em;
@@ -156,6 +157,6 @@ header {
         width: 3em;
     }
     .header__socials a {
-        font-size: 1em;
+        font-size: 1.3em;
     }
 }

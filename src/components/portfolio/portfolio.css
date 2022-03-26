@@ -41,7 +41,7 @@
 
 .portfolio__item:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
+    /* border-color: var(--color-primary-variant); */
     cursor: default;
 }
 

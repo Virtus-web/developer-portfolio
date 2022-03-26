@@ -22,8 +22,11 @@
 
 .experience__container > div:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
+    /* border-color: var(--color-primary-variant); */
     cursor: default;
+}
+.experience__container > div:hover .experience__content {
+    color: var(--color-primary);
 }
 
 .experience__container > div h3 {
@@ -50,7 +53,7 @@
 
 .experience__details-icon {
     margin-top: 1em;
-    color: var(--color-bg);
+    color: var(--color-primary-variant);
 }
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES =================== */

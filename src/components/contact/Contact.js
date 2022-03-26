@@ -1,7 +1,7 @@
 import './contact.css'
 import { MdOutlineEmail } from 'react-icons/md'
 import { RiMessengerLine } from 'react-icons/ri'
-import { BsWhatsapp } from 'react-icons/bs'
+import { MdTextsms } from 'react-icons/md'
 
 
 // Penser à importer npm install emailjs-com --save et connecter outlook quand il sera opérationnel
@@ -23,7 +23,7 @@ function Contact() {
                     <a href="https://m.me/Wearenico" rel="noreferrer"  target="_blank">Send a message</a>
                 </article>
                 <article className="contact__option">
-                    <BsWhatsapp className="contact__option-icon" />
+                    <MdTextsms className="contact__option-icon" />
                     <h4>Mobile</h4>
                     <h5>+33749646931</h5>
                     {/* <a href="https://api.whatsapp.com/send?phone+61413623901" rel="noreferrer"  target="_blank">Send a message</a> */}

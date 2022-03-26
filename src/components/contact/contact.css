@@ -29,7 +29,7 @@
 
 .contact__option:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
+    /* border-color: var(--color-primary-variant); */
 }
 
 .contact__option-icon {
