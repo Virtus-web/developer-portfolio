@@ -1,5 +1,7 @@
 #portfolio {
     margin-top: 3em;
+    /* position: relative; */
+    /* height: 100%; */
 }
 #portfolio > h2 {
     font-size: 2.3em;
@@ -23,6 +25,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 1em; */
     height: auto;
+    /* height: 100%; */
     width: 50vw;
 }
 
@@ -32,6 +35,8 @@
     border-radius: 1em;
     border: 1px solid transparent;
     transition: var(--transition);
+    height: 100%;
+    padding-bottom: 1em;
 }
 
 .portfolio__item:hover {
@@ -59,6 +64,7 @@
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
     background: var(--color-bg);
+    margin: 0;
 }
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES =================== */
@@ -92,8 +98,8 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 300px) {
     .portfolio__container {
-        height: 55vh;
+        height: 60vh;
     }
 }
