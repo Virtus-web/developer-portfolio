@@ -16,15 +16,15 @@ function Services() {
                     <ul className="service__list">
                         <li>
                             <BiCheck className="service__list-icon" />
-                            <p>Accompagnement depuis l'étude de vos besoins jusqu’à la mise en production de votre site internet, en passant par la conception de votre projet web. Relations étroites avec vous tout au long du parcours afin d'être à l'écoute des besoins et des questions techniques.</p>
-                        </li>
-                        <li>
-                            <BiCheck className="service__list-icon" />
                             <p>Analyse de votre stratégie marketing et élaboration de maquettes répondant à des problématiques ciblées. Gestion du projet efficace pour maitriser les coûts et les délais. Assurer les mises à jour de votre site internet.</p>
                         </li>
                         <li>
                             <BiCheck className="service__list-icon" />
-                            <p>Faire vivre votre site web en l'alimentant en contenus. Utiliser les réseaux sociaux pour gérer votre communauté et rester proche de vos clients.</p>
+                            <p>Accompagnement depuis l'étude de vos besoins jusqu’à la mise en production de votre site internet, en passant par la conception de votre projet web. Relations étroites avec vous tout au long du parcours afin d'être à l'écoute des besoins et des questions techniques.</p>                            
+                        </li>
+                        <li>
+                            <BiCheck className="service__list-icon" />
+                            <p>Faire vivre votre site web en l'alimentant en contenu. Utiliser les réseaux sociaux pour gérer votre communauté et rester proche de vos clients.</p>
                         </li>
                     </ul>
                 </article>
