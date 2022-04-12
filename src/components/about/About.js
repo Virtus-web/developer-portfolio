@@ -28,7 +28,7 @@ function About() {
                             <FiUsers className="about__icon" />
                             <h5>Experience</h5>
                             <div className="formation__box">
-                                <small>Développement Web - 1+ an</small>
+                                <small>Développement Web - 2+ ans</small>
                                 <small>Marketing et Communication - 8+ ans</small>
                             </div>
                         </article>
